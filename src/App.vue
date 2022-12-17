@@ -15,8 +15,9 @@ import TodoAdd from "./components/TodoAdd.vue";
 import TodoFilter from "./components/TodoFilter.vue";
 import TodoList from "./components/TodoList.vue";
 
-import useTodos from "./composables/useTodos";
+import useTodos from './composables/useTodos';
 import useFilteredTodos from "./composables/useFilteredTodos";
+
 
 const todos = useTodos();
 const { filter, filteredTodos } = useFilteredTodos(todos);
