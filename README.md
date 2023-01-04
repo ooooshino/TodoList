@@ -10,6 +10,7 @@
   - [依赖和src目录](#依赖和src目录)
     - [依赖](#依赖)
     - [目录结构](#目录结构)
+  - [逻辑解释](#逻辑解释)
   - [下载运行](#下载运行)
 
 
@@ -65,8 +66,9 @@ vite是当下很火热的前端开发与构建工具，意在提供开箱即用�
 
 组合式函数（composables function)是vue3新出的概念的，功能是用compositionAPI来封装可复用有状态逻辑的函数，当它不是用compositionAPI封装时，和我们正常封装utils也就是一样的了
 
-**需要说明的是，这里提到了可复用，你在我的项目里可以看到这几个comoposables就只用到一次，这里我忽略掉了可复用的点，你也稍微修改一下放进对应的文件里也没问题，为了更好的学习vue3 CompositionAPI，初识了vue3的另一个概念composables，让我们对vue3 CompositionAPI有个更加完整的认识**:muscle:
+## 逻辑解释
 
+想学习可以前往我的[blog](https://oshino.cc/_posts/todolist-for-vue3-composition-api#%E9%80%BB%E8%BE%91%E8%A7%A3%E9%87%8A)看一下
 
 ## 下载运行
 
