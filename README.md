@@ -1,6 +1,6 @@
 # 通过一个todoList小案例来学习vue3 CompositionAPI
 
-项目预览：[点我]("https://roaring-cendol-e67036.netlify.app/")
+[项目预览](https://oshino-todolist.netlify.app)
 
 
 ## 目录
@@ -41,7 +41,7 @@
 vite是当下很火热的前端开发与构建工具，意在提供开箱即用的配置，同时它的插件API和JavaScript API 带来了高度的可扩展性，并有完整的类型支持。如果你还在使用webpack，不如尝试一下vite吧！
 
 
-由于Typescript的趋势不可阻挡，笔者也使用了vue3-typescript，对于学过java这种强类型语言的我来说，上手并不难，如果你在这之前还未看过Typescript,可以先预览一下[文档]("https://typescript.bootcss.com/")
+由于Typescript的趋势不可阻挡，笔者也使用了vue3-typescript，对于学过java这种强类型语言的我来说，上手并不难，如果你在这之前还未看过Typescript,可以先预览一下[文档](https://typescript.bootcss.com)
 
 
 ### 目录结构
@@ -72,7 +72,7 @@ vite是当下很火热的前端开发与构建工具，意在提供开箱即用�
 
 ## 下载运行
 
-可以手动[下载]("https://github.com/ooooshino/TodoList.git)，或者通过git clone到本地
+可以手动[下载](https://github.com/ooooshino/TodoList.git)，或者通过git clone到本地
 
 ```bash
 git clone https://github.com/ooooshino/TodoList.git
