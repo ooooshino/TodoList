@@ -18,7 +18,6 @@ import TodoList from "./components/TodoList.vue";
 import useTodos from './composables/useTodos';
 import useFilteredTodos from "./composables/useFilteredTodos";
 
-
 const todos = useTodos();
 const { filter, filteredTodos } = useFilteredTodos(todos);
 </script>

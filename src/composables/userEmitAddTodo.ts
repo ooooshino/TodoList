@@ -1,14 +1,15 @@
-import { ref } from "vue";
+import { ref, } from "vue";
 
-export default function useEmitAddTodo(tid: object, emit: any)
+export default function useEmitAddTodo(props: Props, emit: any)
 {
   const todoContent = ref("");
   const emitAddTodo = () =>
   {
     if (todoContent.value != null && todoContent.value.length >= 1)
     {
+
       const todo = {
-        id: tid,
+        id: props.tid,
         content: todoContent.value,
         completed: false,
       };

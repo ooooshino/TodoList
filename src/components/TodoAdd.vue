@@ -8,12 +8,14 @@
 </template>
 
 <script setup lang="ts">
+export interface Props { tid?: Number }
 import useEmitAddTodo from '../composables/userEmitAddTodo';
 
 const emit = defineEmits(['add-todo'])
-const tid = defineProps(['tid'])
 
-const { todoContent, emitAddTodo } = useEmitAddTodo(tid, emit);
+const props = withDefaults(defineProps<Props>(), { tid: Number })
+
+const { todoContent, emitAddTodo } = useEmitAddTodo(props, emit);
 
 </script>
 

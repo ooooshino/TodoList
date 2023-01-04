@@ -1,6 +1,7 @@
-interface Todo
-{
-  id: number,
-  content: string,
-  completed: boolean;
-}
+type Todo =
+  {
+    id: Number,
+    content: string,
+    completed: boolean;
+  }
+interface Props { tid?: Number }
