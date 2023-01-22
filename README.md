@@ -68,7 +68,7 @@ vite是当下很火热的前端开发与构建工具，意在提供开箱即用�
 
 ## 逻辑解释
 
-想学习可以前往我的[blog](https://oshino.cc/_posts/todolist-for-vue3-composition-api#%E9%80%BB%E8%BE%91%E8%A7%A3%E9%87%8A)看一下
+想学习可以前往我的[blog](https://oshino.cc/posts/todolist)看一下
 
 ## 下载运行
 
